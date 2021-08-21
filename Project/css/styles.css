@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(179, 184, 104), rgb(87, 41, 10));
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: rgb(7, 9, 10);
+}
+
+.container {
+  height: 20rem;
+  width: 15rem;
+  background-color: rgb(166, 152, 228);
+  text-align: center;
+  padding-top: 15px;
+  border: 2px solid rgb(26, 1, 43);
+}
