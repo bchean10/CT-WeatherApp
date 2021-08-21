@@ -11,7 +11,7 @@ function checkWeather(){
     latitude = position.coords.latitude;
     longitude = position.coords.longitude;
     
-    const weather = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=640425cd625a5845a42087aa8f07c63d`;
+    const weather = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid={APIKEY}`;
     
     fetch(weather)
       .then(response => response.json())
